@@ -1,18 +1,14 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
+  <div class="phone-viewport"></div>
+  <md-toolbar>
+    <h1 class="md-title">Ecommerce WebSchool</h1>
+  </md-toolbar>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'WebSchoolComponent'
 }
 </script>
 
