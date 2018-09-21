@@ -1,12 +1,12 @@
 import Vue from 'vue'
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.css'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 import App from './App'
 
 Vue.config.productionTip = false
-Vue.use(VueMaterial)
-
-Vue.use(VueMaterial.)
+Vue.use(BootstrapVue)
 
 /* eslint-disable no-new */
 new Vue({
